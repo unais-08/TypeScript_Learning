@@ -1,0 +1,80 @@
+/* Task Form Styles */
+.task-form {
+  display: flex;
+  gap: 10px;
+  margin: 20px 0;
+  padding: 10px;
+  background: #f8f9fa;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Input Field */
+.task-input {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.task-input:focus {
+  border-color: #007bff;
+}
+
+/* Add Button */
+.task-button {
+  padding: 10px 15px;
+  font-size: 16px;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.task-button:hover {
+  background-color: #0056b3;
+}
+/* Task List Container */
+/* Task List */
+.task-list {
+  margin-top: 20px;
+  padding: 10px;
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  list-style: none;
+  max-width: 400px;
+}
+
+/* Individual Task Item */
+.task-item {
+  padding: 12px;
+  margin: 5px 0;
+  background: #f1f1f1;
+  border-radius: 6px;
+  font-size: 16px;
+  color: #333;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.3s ease-in-out;
+}
+
+/* Checkbox */
+.task-checkbox {
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+}
+
+/* Completed Task Styling */
+.completed {
+  text-decoration: line-through;
+  color: #777;
+  background: #e0e0e0;
+}
